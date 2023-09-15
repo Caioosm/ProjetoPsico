@@ -18,4 +18,4 @@ if(body.classList.contains("dark")){
 }else{
   modeText.innerText = "Dark mode"; 
 }
-});
+}); 
