@@ -3,19 +3,19 @@ html{
 
   --body-color:#FFFCFF ;
 
-  --header-color:#d36c6c;
+  --header-color:#000000;
 
-  --header-button:#92a1d1;
+  --header-button:#4602c5;
 
-  --color-weekdays: #247BA0;
+  --color-weekdays: #5900ff;
   
-  --box-shadow: #CBD4C2;
+  --box-shadow: #000000;
 
-  --hover: #e8faed;
+  --hover: #5900ff;
 
   --current-day:#e8f4fa;
 
-  --event-color: #58bae4;
+  --event-color: #e48058;
 
   --modal-event: #e8f4fa;
 
@@ -61,7 +61,8 @@ button {
 #weekdays {
   width: 100%;
   display: flex;
-  color: var(--color-weekdays) ;
+  color: var(--color-weekdays);
+  
 }
 #weekdays div {
   width: 100px;
@@ -114,7 +115,7 @@ button {
   padding: 25px;
   background-color: var(--modal-event);
   box-shadow: 0px 0px 3px black;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 350px;
   top: 100px;
   left: calc(50% - 175px);
@@ -126,7 +127,7 @@ button {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 25px;
-  border-radius: 3px;
+  border-radius: 5px;
   outline: none;
   border: none;
   box-shadow: 0px 0px 3px gray;
