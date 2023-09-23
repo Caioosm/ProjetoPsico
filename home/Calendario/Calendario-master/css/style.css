@@ -1,9 +1,9 @@
 html{
 
 
-  --body-color:#ffffff ;
+  --body-color:#ffffff;
 
-  --header-color:#000000;
+  --header-color:#1d009e;
 
   --header-button:#4602c5;
 
@@ -31,8 +31,10 @@ body {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-  background-color: var(--body-color);
+  background: var(--body-color)
+  
 }
+
 button {
   width: 75px;
   cursor: pointer;

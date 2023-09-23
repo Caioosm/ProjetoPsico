@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Simulação de autenticação (substitua esta lógica por uma chamada ao servidor)
         if (email === "admin@admin.com" && password === "admin") {
-            location.href = '/home/home.html'
+            location.href = '/home/PagHome.html'
         
         } else {
             Swal.fire("Erro", "Login ou senha inválidos!", "error");
