@@ -3,17 +3,17 @@ html{
 
   --body-color:#ffffff;
 
-  --header-color:#1d009e;
+  --header-color: #000000;
 
-  --header-button:#4602c5;
+  --header-button:#000000;
 
-  --color-weekdays: #5900ff;
+  --color-weekdays: #4402be;
   
   --box-shadow: #000000;
 
   --hover: #5900ff;
 
-  --current-day:#e8f4fa;
+  --current-day:#00aaff;
 
   --event-color: #e48058;
 
