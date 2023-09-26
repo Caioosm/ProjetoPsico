@@ -258,8 +258,10 @@ body.dark .switch::before{
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
-    background-color: var(--body-color);
+    /*background-color: var(--body-color);*/
+    background-image: url("../imgs/background.png");
     transition: var(--tran-05);
+    
 }
 .home .text{
     font-size: 30px;
